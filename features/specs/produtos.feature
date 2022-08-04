@@ -25,7 +25,7 @@ Contexto: Estar na página de produto
 
   @increase_product_quantity
   @increase_product_quantity_Validate_cart
-  Cenário: Aumentar quantidade do produto na PDP aumenta no carrinho
+  Cenário: Aumentar quantidade do produto na PDP aumenta no carrinho  
     Quando aumentar a quantidade do produto
     E adicionar o produto ao carrinho
     Então o produto deverá ser adicionado ao carrinho com a quantidade aumentada
@@ -33,5 +33,5 @@ Contexto: Estar na página de produto
   @add_product_to_cart_pdp
   Cenário: Adicionar produto ao carrinho pela PDP 
     Quando adicionar o produto ao carrinho 
-    Então o produto deverá ser adicionado ao carrinho com sucesso
+    Então o produto deverá ser adicionado ao carrinho com sucesso.
     
