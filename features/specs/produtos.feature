@@ -34,3 +34,4 @@ Contexto: Estar na página de produto
   Cenário: Adicionar produto ao carrinho pela PDP 
     Quando adicionar o produto ao carrinho 
     Então o produto deverá ser adicionado ao carrinho com sucesso
+    
