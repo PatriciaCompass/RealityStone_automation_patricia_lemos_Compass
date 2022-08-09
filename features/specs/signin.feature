@@ -9,14 +9,16 @@ Funcionalidade: Autenticação
     Dado que esteja na aplicação
 
   Esquema do Cenário: Login
-    Quando preencher os campos "<username>", "<Password>"
+    Quando preencher os campos "<username>", "<password>"
     E clicar em login
     Então deverá exibir a mensagem "<msg>"
 
   Exemplos:
-  |     username    |  Password     |   msg   |  
-  |   standard_user |  secret_sauce |         |
-
+  |     username  |    password   |          msg                       |  
+  | standard_user |  secret_sauce |                                    | 
+  |               |  secret_sauce | Epic sadface: Username is required |  
+  | standard_user |               | Epic sadface: Password is required |
+  
    
 
   
